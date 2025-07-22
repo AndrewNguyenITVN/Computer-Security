@@ -1,0 +1,13 @@
+python -m venv venv
+
+.\venv\Scripts\activate
+
+pip install flask pandas numpy scikit-learn tensorflow
+
+python iot_server.py
+
+python iot_client.py
+
+python lstm_predict.py
+
+python isolation_validate.py
